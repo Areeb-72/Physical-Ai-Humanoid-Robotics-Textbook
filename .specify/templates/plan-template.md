@@ -29,9 +29,12 @@
 
 ## Constitution Check
 
-*GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
+*GATE: Must pass before proceeding. These gates ensure alignment with the textbook's core principles.*
 
-[Gates determined based on constitution file]
+- [ ] **Principle I (Embodied Intelligence):** Does the plan account for interaction with a physical or simulated environment?
+- [ ] **Principle II (Humanoid Form):** If applicable, does the design align with the advantages of a general-purpose humanoid platform?
+- [ ] **Principle III (The Bridge):** Does the plan clearly identify its role within the ROS 2, Perception, Simulation, or VLA framework?
+- [ ] **Principle IV (Purpose-Driven):** Does the plan articulate the real-world application or problem this feature helps solve?
 
 ## Project Structure
 

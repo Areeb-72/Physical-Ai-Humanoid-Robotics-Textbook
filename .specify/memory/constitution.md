@@ -1,55 +1,51 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report
+- Version change: 0.0.0 → 1.0.0
+- List of modified principles: Initial creation.
+- Added sections: All principles, Preamble, Purpose and Application.
+- Removed sections: None.
+- Templates requiring updates:
+  - ✅ `.specify/templates/plan-template.md` (verified)
+  - ✅ `.specify/templates/spec-template.md` (verified)
+  - ✅ `.specify/templates/tasks-template.md` (verified)
+- Follow-up TODOs: None.
+-->
+# Constitution: Physical AI & Humanoid Robotics
+
+## Preamble: The Dawn of Embodied Intelligence
+
+For decades, artificial intelligence has lived behind screens—a disembodied mind mastering games, generating text, and analyzing data. Simultaneously, robotics gave us physical machines, strong and precise, but often limited to repetitive, pre-programmed tasks. We are now at the precipice of a revolution that merges these two worlds. This textbook is your guide to that new frontier: **Physical AI**.
+
+Our mission is to provide you with the foundational principles, theoretical frameworks, and core purpose needed to build the next generation of intelligent, physical systems. This is not just about writing code; it's about giving digital minds a body and teaching them to perceive, interact with, and learn from the complex, dynamic world we inhabit.
+
+---
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Physical AI is More Than Just an Algorithm
+At its heart, this book is about **embodied intelligence**. Unlike a chatbot or a data-analysis model, a physical AI must contend with gravity, friction, uncertainty, and the unyielding laws of physics. Its intelligence is grounded in physical experience, not just abstract computation.
+- **Rationale:** This principle establishes the fundamental shift in thinking required for physical AI. Students must move beyond pure software concepts and embrace the challenges and opportunities of the physical world to build robots that can perform meaningful, real-world tasks.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. The Humanoid Form: The Ultimate General-Purpose Interface
+We focus on the **humanoid robot** because our world is designed for humans. A humanoid form provides a general-purpose advantage for navigating human-centric environments, using human tools, and interacting intuitively with people.
+- **Rationale:** By tackling the grand challenges of the humanoid form (dynamic balance, dexterous manipulation), we develop solutions that are broadly transferable. This focus prepares students to build robots that can seamlessly integrate into human society.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. The Bridge: Connecting Digital Minds to Physical Matter
+The central challenge of our field is bridging the gap between a high-level AI model and the low-level mechanics of a robot. This is achieved through four pillars:
+- **The Nervous System (ROS 2):** The standardized communication framework.
+- **The Mind's Eye (AI Perception):** The ability to turn sensor data into understanding.
+- **The Imagination (Simulation):** The digital sandbox for safe, rapid learning.
+- **The Language of Action (VLA Models):** The translator between human intent and robotic action.
+- **Rationale:** This principle provides a clear mental model for the core technical components of a humanoid robot. By categorizing the technology stack into intuitive concepts, it gives students a structured way to understand how the system functions as a whole.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Purpose and Application: Why We Build
+We don't build humanoid robots for the sake of it; we build them to solve uniquely human challenges and augment human capabilities. All learning should be grounded in real-world applications.
+- **Rationale:** Technology without purpose is meaningless. This principle ensures that the focus remains on creating value for humanity, whether in healthcare, logistics, exploration, or manufacturing. It motivates the learning process by connecting it to tangible, impactful outcomes.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
-
-### [PRINCIPLE_6_NAME]
-
-
-[PRINCIPLE__DESCRIPTION]
-
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+*[Diagram Idea: A circular flow diagram titled "The Embodied AI Loop." It starts with "Human Command (Language)," goes to "VLA Model," then to "ROS 2 (Action)," which affects the "Physical World." From the "Physical World," "Perception (Sensors)" feeds back into the "VLA Model," closing the loop.]*
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+Amendments to this constitution require a clear rationale, must be documented, and should be reviewed against all course modules for consistency. This document is the single source of truth for the textbook's educational philosophy.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-27 | **Last Amended**: 2025-12-27
