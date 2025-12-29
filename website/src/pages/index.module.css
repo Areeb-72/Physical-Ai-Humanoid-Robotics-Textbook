@@ -77,6 +77,10 @@
   color: #000000; /* Changed to black */
 }
 
+.homepageSection h3 {
+  color: #000000; /* Set h3 color to black for feature titles */
+}
+
 .homepageSection p {
   color: #555555; /* Darker text color for paragraphs */
 }
