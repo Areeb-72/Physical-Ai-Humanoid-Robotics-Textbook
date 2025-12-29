@@ -76,3 +76,7 @@
   margin-bottom: 2rem;
   color: #333333;
 }
+
+.homepageSection p {
+  color: #555555; /* Darker text color for paragraphs */
+}
