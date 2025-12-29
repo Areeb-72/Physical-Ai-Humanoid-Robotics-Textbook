@@ -1,0 +1,78 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 6rem 0; /* Increased padding */
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: #212121; /* Dark background color */
+  background-image: linear-gradient(180deg, #212121 0%, #3a3a3a 100%); /* Subtle gradient */
+  color: #ffffff; /* White text for contrast */
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 3rem 0; /* Adjusted padding for mobile */
+  }
+}
+
+.heroBanner .hero__title {
+  font-size: 3.5rem; /* Larger title */
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.heroBanner .hero__subtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem; /* Spacing between buttons */
+  margin-top: 2rem;
+}
+
+.buttons .button {
+  font-size: 1.1rem;
+  padding: 0.8rem 1.8rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.buttons .button--secondary {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.buttons .button--secondary:hover {
+  background-color: #45a049; /* Darker green on hover */
+  border-color: #45a049;
+  text-decoration: none;
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Custom styling for the feature section in index.js for better visual separation */
+.homepageSection {
+  padding: 4rem 0;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.homepageSection:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.homepageSection h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: #333333;
+}
